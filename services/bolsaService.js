@@ -9,7 +9,6 @@ class bolsaService {
   getTickersService(ticker, data) {
     return new Promise((resolve, reject) => {
       try {
-        data = '2021-05-06';
         axiosRequest.post(`${this.urlBase}/${ticker}/${data}`)
           .then((response) => {
             resolve(response.data);
