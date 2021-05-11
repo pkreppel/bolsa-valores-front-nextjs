@@ -2,7 +2,7 @@ import axios from 'axios';
 //import router from '../router';
 
 //const URL_BASE = `${process.env.VUE_APP_URL_BASE_BOLSA}`;
-const URL_BASE = 'http://localhost:8080/';
+const URL_BASE = 'http://localhost:20001/';
 
 //const errosTratados = [400, 401, 404, 500];
 

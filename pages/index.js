@@ -12,7 +12,7 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Carteira de ações e Fiis
+          Carteira de Ações e Fiis
         </h1>
 
         <div className="grid">
@@ -20,7 +20,7 @@ export default function Home() {
             <Link href="/carteira/acoes">
               <a>
               <h3>Ações &rarr;</h3>
-              <p>Carteira de ações</p>
+              <p>Carteira de Ações</p>
               </a>
             </Link>
           </div>
